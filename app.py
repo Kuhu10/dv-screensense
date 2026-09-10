@@ -212,8 +212,7 @@ POWERBI_URL = "https://app.powerbi.com/view?r=eyJrIjoiZjRhOThhZWQtZmJhNi00NDRlLT
 
 st.iframe(
     POWERBI_URL,
-    height=800,
-    scrolling=True
+    height=800
 )
 
 # ---------------------------------------------------------------
