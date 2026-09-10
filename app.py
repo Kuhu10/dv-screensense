@@ -201,7 +201,21 @@ with col_b:
         "Indexing low-selectivity columns for non-covering queries is a classic "
         "'looks like it should help but doesn't' case at scale."
     )
- 
+
+# ---------------------------------------------------------------
+# POWER BI DASHBOARD
+# ---------------------------------------------------------------
+st.divider()
+st.header("📊 Power BI Dashboard")
+
+POWERBI_URL = "https://app.powerbi.com/view?r=eyJrIjoiZjRhOThhZWQtZmJhNi00NDRlLTk0MGUtMzVhMDU0NzZjMTc4IiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9"
+
+st.iframe(
+    POWERBI_URL,
+    height=800,
+    scrolling=True
+)
+
 # ---------------------------------------------------------------
 # RAW DATA
 # ---------------------------------------------------------------
